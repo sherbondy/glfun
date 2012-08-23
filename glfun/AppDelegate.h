@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class OpenGLView;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, strong) OpenGLView *glView;
 
 @end
